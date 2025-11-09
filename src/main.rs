@@ -1,5 +1,5 @@
-use aoc2015::day19;
+use aoc2015::day20;
 
 pub fn main() {
-    day19::day19();
+    day20::day20();
 }
