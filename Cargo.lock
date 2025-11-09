@@ -5,3 +5,37 @@ version = 4
 [[package]]
 name = "aoc2015"
 version = "0.1.0"
+dependencies = [
+ "iter_tools",
+]
+
+[[package]]
+name = "clone_dyn_types"
+version = "0.42.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2ec7312693a0cd0e18272fda7db24123877c6d4f594906c97e1101f10d3b0790"
+
+[[package]]
+name = "either"
+version = "1.15.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "48c757948c5ede0e46177b7add2e67155f70e33c07fea8284df6576da70b3719"
+
+[[package]]
+name = "iter_tools"
+version = "0.42.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4109f84d113a0ff44a512281061f56066c321dc98c4caeb91ee1c0b91fbd70b4"
+dependencies = [
+ "clone_dyn_types",
+ "itertools",
+]
+
+[[package]]
+name = "itertools"
+version = "0.11.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b1c173a5686ce8bfa551b3563d0c2170bf24ca44da99c7ca4bfdab5418c3fe57"
+dependencies = [
+ "either",
+]
