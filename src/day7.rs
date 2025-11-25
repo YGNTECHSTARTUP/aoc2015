@@ -72,7 +72,6 @@ impl Challenge {
             x.in2 = "".to_string();
             x.op = "NONE".to_string();
         });
-        self.values = HashMap::new();
     }
 }
 
@@ -105,6 +104,5 @@ pub fn day7() {
         chal.hash.insert(output.to_string(), gt);
     }
 
-    println!("{:?}", chal.getpart2(46065));
     println!("{:?}", chal.get_value("a".to_string()));
 }

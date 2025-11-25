@@ -1,5 +1,5 @@
-use aoc2015::day7;
+use aoc2015::day18;
 
 pub fn main() {
-    day7::day7();
+    day18::game_of_life();
 }
